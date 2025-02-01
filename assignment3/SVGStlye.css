@@ -1,0 +1,38 @@
+div {
+    float: left;
+    width: 800px;
+    height: 1000px;
+    margin: 1em auto;
+    padding-left: 250px;
+}
+
+#Background {
+    animation: Pulse 3.0s linear infinite;
+}
+
+@keyframes Pulse {
+    0% {opacity: 1;}
+    50% {opacity: 0.25;}
+    100% {opacity: 1;}
+}
+
+#Hello_Text {
+    animation: Expand 2.0s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes Expand {
+    0% {transform: scale(0.1);}
+    50% {transform: scale(1);}
+    100% {transform: scale(0.1);}
+}
+
+#Smiley {
+    animation: Rotation 5.0s linear infinite;
+    transform-origin: center;
+}
+
+@keyframes Rotation {
+    0% {transform: rotate(0);}
+    100% {transform: rotate(3.0turn);}
+}

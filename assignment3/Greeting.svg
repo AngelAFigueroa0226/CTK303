@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1080">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        font-family: CooperBlack, 'Cooper Black';
+        font-size: 400px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #ff0;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0" y1="540" x2="1920" y2="540" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f0f"/>
+      <stop offset="1" stop-color="#0095ba"/>
+    </linearGradient>
+  </defs>
+  <g id="Background">
+    <rect class="cls-3" width="1920" height="1080"/>
+  </g>
+  <g id="Hello_Text" data-name="Hello Text">
+    <text class="cls-2" transform="translate(435.82 947.95)"><tspan x="0" y="0">Hello</tspan></text>
+  </g>
+  <g id="Smiley">
+    <circle cx="978" cy="333" r="210"/>
+    <circle class="cls-4" cx="978" cy="333" r="200"/>
+    <ellipse cx="892" cy="275.26" rx="10" ry="77.5"/>
+    <ellipse cx="1058" cy="275.5" rx="10" ry="77.5"/>
+    <line class="cls-1" x1="875" y1="415" x2="978" y2="481"/>
+    <path d="M1094.64,411.78c-38.23,56.46-102.6,81.4-155.35,63.97-42.5-14.04-63.55-50.97-69.53-62.47"/>
+  </g>
+</svg>
