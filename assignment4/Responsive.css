@@ -1,0 +1,27 @@
+h1 {
+    background-color: rgb(197, 3, 3);
+    border-bottom: 5px solid black;   
+}
+
+p {
+    background-color: rgb(221, 221, 0);
+    border: 5px solid rgb(197, 3, 3)
+}
+
+#MainImage {
+    width: 75%;
+    padding-right: 1rem;
+    margin-bottom: 1rem;
+}
+
+@media all and (min-width: 20rem)
+{
+    h1 {border-bottom: 5px solid rgb(197, 3, 3); background-color: rgb(221, 221, 0);}
+    p {background-color: rgb(197, 3, 3); border: 5px solid rgb(221, 221, 0);}
+}
+@media all and (min-width: 40rem)
+{
+    #MainImage{width: 50%; float: left;}
+    p {background-color: blue; border: 5px solid green;}
+    h1 {background-color: white; border: none;}
+}
